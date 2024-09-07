@@ -9,17 +9,29 @@ dependencies {
     testAnnotationProcessor libs.lombok
 
     implementation libs.awt.extensions
+    implementation libs.miglayout.swing
+    implementation libs.crypt.api
+    implementation libs.crypt.data
+    implementation libs.bcprov.jdk15on
+    implementation libs.bcprov.ext.jdk15on
+    implementation libs.bcpkix.jdk15on
+    implementation libs.observer.pattern
+    implementation libs.state.pattern
+    implementation libs.eventbus.pattern
+    implementation libs.randomizer
+    implementation libs.component.model
     implementation libs.swing.base.components
+    implementation libs.swing.model.components
+    implementation libs.swing.wizard
     implementation libs.model.data
-    implementation libs.resourcebundle.core
+    implementation libs.lgood.date.picker
+    implementation libs.silly.collection
+    implementation libs.silly.bean
     implementation libs.menu.action
-
-    testImplementation libs.commons.text
-    testImplementation libs.file.worker
-    testImplementation libs.gradle.migration.data
-    testImplementation libs.silly.collection
-    testImplementation libs.silly.io
-    testImplementation libs.throwable
+    implementation libs.mystic.crypt
+    implementation libs.resourcebundle.core
+    implementation libs.jobj.core
+    implementation libs.commons.csv
     // Note: use of bundles...
     testImplementation libs.bundles.unit.testing
     testRuntimeOnly libs.junit.platform.launcher

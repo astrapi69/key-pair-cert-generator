@@ -1,58 +1,99 @@
 [versions]
 awt-extensions-version = "1.2"
+bcpkix-jdk15on-version = "1.70"
+bcprov-ext-jdk15on-version = "1.70"
+bcprov-jdk15on-version = "1.70"
+commons-csv-version = "1.11.0"
 commons-text-version = "1.12.0"
+component-model-version = "2"
+crypt-api-version = "9.3"
+crypt-data-version = "10"
+eventbus-pattern-version = "7.1"
 file-worker-version = "17.4"
 gradle-migration-data-version = "2.4"
-gradle-plugin-izpack-version = "3.2"
 gradle-plugin-grgit-version = "5.2.2"
+gradle-plugin-izpack-version = "3.2"
 gradle-plugin-license-version = "0.16.1"
-gradle-plugin-lombok-version = "8.7.1"
-gradle-plugin-spotless-version = "7.0.0.BETA1"
+gradle-plugin-lombok-version = "8.10"
+gradle-plugin-spotless-version = "7.0.0.BETA2"
 gradle-plugin-version-catalog-update-version = "0.8.4"
 gradle-plugin-versions-version = "0.51.0"
 izpack-ant-version = "5.2.2"
+jobj-core-version = "9"
 junit-jupiter-params-version = "5.11.0"
 junit-jupiter-version = "5.11.0"
 junit-platform-launcher-version = "1.11.0"
+lgood-date-picker-version = "11.2.1"
 lombok-version = "1.18.34"
 meanbean-version = "3.0.0-M9"
 menu-action-version = "3.4"
-mockito-core-version = "5.12.0"
+miglayout-swing-version = "11.4.2"
+mockito-core-version = "5.13.0"
 model-data-version = "3.1"
+mystic-crypt-version = "9.1"
+observer-pattern-version = "7.1"
+randomizer-version = "10.2"
 resourcebundle-core-version = "5"
-silly-collection-version = "27.1"
+silly-bean-version = "2"
+silly-collection-version = "28"
 silly-io-version = "3.1"
+state-pattern-version = "7.1"
 swing-base-components-version = "4.2"
+swing-model-components-version = "1.1"
+swing-wizard-version = "2.1"
 throwable-version = "3"
 
 [libraries]
 awt-extensions = { module = "io.github.astrapi69:awt-extensions", version.ref = "awt-extensions-version" }
+bcpkix-jdk15on = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bcpkix-jdk15on-version" }
+bcprov-ext-jdk15on = { module = "org.bouncycastle:bcprov-ext-jdk15on", version.ref = "bcprov-ext-jdk15on-version" }
+bcprov-jdk15on = { module = "org.bouncycastle:bcprov-jdk15on", version.ref = "bcprov-jdk15on-version" }
+commons-csv = { module = "org.apache.commons:commons-csv", version.ref = "commons-csv-version" }
 commons-text = { module = "org.apache.commons:commons-text", version.ref = "commons-text-version" }
+component-model = { module = "io.github.astrapi69:component-model", version.ref = "component-model-version" }
+crypt-api = { module = "io.github.astrapi69:crypt-api", version.ref = "crypt-api-version" }
+crypt-data = { module = "io.github.astrapi69:crypt-data", version.ref = "crypt-data-version" }
+eventbus-pattern = { module = "io.github.astrapi69:eventbus-pattern", version.ref = "eventbus-pattern-version" }
 file-worker = { module = "io.github.astrapi69:file-worker", version.ref = "file-worker-version" }
 gradle-migration-data = { module = "io.github.astrapi69:gradle-migration-data", version.ref = "gradle-migration-data-version" }
 izpack-ant = { module = "org.codehaus.izpack:izpack-ant", version.ref = "izpack-ant-version" }
+jobj-core = { module = "io.github.astrapi69:jobj-core", version.ref = "jobj-core-version" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter-version" }
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit-jupiter-params-version" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform-launcher-version" }
+lgood-date-picker = { module = "com.github.lgooddatepicker:LGoodDatePicker", version.ref = "lgood-date-picker-version" }
 lombok = { module = "org.projectlombok:lombok", version.ref = "lombok-version" }
 meanbean = { module = "com.github.meanbeanlib:meanbean", version.ref = "meanbean-version" }
 menu-action = { module = "io.github.astrapi69:menu-action", version.ref = "menu-action-version" }
+miglayout-swing = { module = "com.miglayout:miglayout-swing", version.ref = "miglayout-swing-version" }
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito-core-version" }
 mockito-junit-jupiter = { module = "org.mockito:mockito-junit-jupiter", version.ref = "mockito-core-version" }
 model-data = { module = "io.github.astrapi69:model-data", version.ref = "model-data-version" }
+mystic-crypt = { module = "io.github.astrapi69:mystic-crypt", version.ref = "mystic-crypt-version" }
+observer-pattern = { module = "io.github.astrapi69:observer-pattern", version.ref = "observer-pattern-version" }
+randomizer = { module = "io.github.astrapi69:randomizer", version.ref = "randomizer-version" }
 resourcebundle-core = { module = "io.github.astrapi69:resourcebundle-core", version.ref = "resourcebundle-core-version" }
+silly-bean = { module = "io.github.astrapi69:silly-bean", version.ref = "silly-bean-version" }
 silly-collection = { module = "io.github.astrapi69:silly-collection", version.ref = "silly-collection-version" }
 silly-io = { module = "io.github.astrapi69:silly-io", version.ref = "silly-io-version" }
+state-pattern = { module = "io.github.astrapi69:state-pattern", version.ref = "state-pattern-version" }
 swing-base-components = { module = "io.github.astrapi69:swing-base-components", version.ref = "swing-base-components-version" }
+swing-model-components = { module = "io.github.astrapi69:swing-model-components", version.ref = "swing-model-components-version" }
+swing-wizard = { module = "io.github.astrapi69:swing-wizard", version.ref = "swing-wizard-version" }
 throwable = { module = "io.github.astrapi69:throwable", version.ref = "throwable-version" }
 
 [bundles]
 unit-testing = [
+    "commons-text",
+    "file-worker",
+    "gradle-migration-data",
     "junit-jupiter",
     "junit-jupiter-params",
     "meanbean",
     "mockito-core",
     "mockito-junit-jupiter",
+    "silly-io",
+    "throwable",
 ]
 
 [plugins]

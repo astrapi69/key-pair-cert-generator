@@ -55,13 +55,13 @@ class InitialTemplateTest
 {
 
 	@Test
-	@Disabled
+//	@Disabled
 	public void testRenameToConcreteProject() throws IOException
 	{
 		String projectDescription;
 		// TODO change the following description with your project description
 		// and then remove the annotation Disabled and run this unit test method
-		projectDescription = "!!!Chage this description with your project description!!!";
+		projectDescription = "Swing-based UI for generating private/public keys and certificates";
 		renameToConcreteProject(projectDescription);
 	}
 
