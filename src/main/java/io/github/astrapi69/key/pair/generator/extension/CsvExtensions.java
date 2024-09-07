@@ -32,11 +32,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-import io.github.astrapi69.key.pair.generator.model.CertificateAlgorithmEntry;
-import io.github.astrapi69.key.pair.generator.model.KeyPairEntry;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
+
+import io.github.astrapi69.key.pair.generator.model.CertificateAlgorithmEntry;
+import io.github.astrapi69.key.pair.generator.model.KeyPairEntry;
 
 
 /**

@@ -25,10 +25,10 @@
 package io.github.astrapi69.key.pair.generator.wizard;
 
 import io.github.astrapi69.design.pattern.state.wizard.model.BaseWizardStateMachineModel;
-import io.github.astrapi69.model.api.IModel;
-import io.github.astrapi69.swing.wizard.BaseWizardContentPanel;
 import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
 import io.github.astrapi69.key.pair.generator.wizard.state.CertificateWizardState;
+import io.github.astrapi69.model.api.IModel;
+import io.github.astrapi69.swing.wizard.BaseWizardContentPanel;
 import lombok.Getter;
 
 @Getter

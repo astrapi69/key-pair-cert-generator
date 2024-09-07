@@ -26,12 +26,12 @@ package io.github.astrapi69.key.pair.generator.wizard;
 
 import javax.swing.JLabel;
 
-import io.github.astrapi69.key.pair.generator.NewCertificateAttributesPanel;
 import io.github.astrapi69.design.pattern.state.wizard.model.BaseWizardStateMachineModel;
+import io.github.astrapi69.key.pair.generator.NewCertificateAttributesPanel;
+import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
 import io.github.astrapi69.model.BaseModel;
 import io.github.astrapi69.model.api.IModel;
 import io.github.astrapi69.swing.base.BasePanel;
-import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
 import net.miginfocom.swing.MigLayout;
 
 public class SubjectPanel extends BasePanel<BaseWizardStateMachineModel<CertificateInfoModel>>

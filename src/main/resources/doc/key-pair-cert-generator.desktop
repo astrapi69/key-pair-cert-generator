@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=key-pair-cert-generator
-GenericName=Crypto-Tool
-Comment=application that provides public and private key creation
-Exec=sh -c 'java -jar --add-opens java.base/java.time=ALL-UNNAMED ~/apps/mystic-crypt-ui/key-pair-cert-generator.jar'
-Icon=~/apps/key-pair-cert-generator/img/icon.png

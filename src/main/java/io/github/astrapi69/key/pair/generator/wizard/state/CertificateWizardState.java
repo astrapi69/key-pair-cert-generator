@@ -24,12 +24,12 @@
  */
 package io.github.astrapi69.key.pair.generator.wizard.state;
 
-import io.github.astrapi69.key.pair.generator.WizardApplicationFrame;
 import io.github.astrapi69.design.pattern.state.wizard.BaseWizardState;
 import io.github.astrapi69.design.pattern.state.wizard.model.BaseWizardStateMachineModel;
 import io.github.astrapi69.design.pattern.state.wizard.model.WizardStateInfo;
-import io.github.astrapi69.swing.dialog.DialogExtensions;
+import io.github.astrapi69.key.pair.generator.WizardApplicationFrame;
 import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
+import io.github.astrapi69.swing.dialog.DialogExtensions;
 
 public enum CertificateWizardState
 	implements BaseWizardState<BaseWizardStateMachineModel<CertificateInfoModel>>

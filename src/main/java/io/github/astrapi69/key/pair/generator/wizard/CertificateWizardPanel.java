@@ -31,14 +31,14 @@ import io.github.astrapi69.design.pattern.observer.event.EventListener;
 import io.github.astrapi69.design.pattern.observer.event.EventObject;
 import io.github.astrapi69.design.pattern.state.wizard.model.BaseWizardStateMachineModel;
 import io.github.astrapi69.design.pattern.state.wizard.model.NavigationEventState;
+import io.github.astrapi69.key.pair.generator.eventbus.ApplicationEventBus;
+import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
+import io.github.astrapi69.key.pair.generator.wizard.state.CertificateWizardState;
 import io.github.astrapi69.model.BaseModel;
 import io.github.astrapi69.model.api.IModel;
 import io.github.astrapi69.swing.wizard.AbstractWizardPanel;
 import io.github.astrapi69.swing.wizard.BaseWizardContentPanel;
 import io.github.astrapi69.swing.wizard.NavigationPanel;
-import io.github.astrapi69.key.pair.generator.eventbus.ApplicationEventBus;
-import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
-import io.github.astrapi69.key.pair.generator.wizard.state.CertificateWizardState;
 import lombok.Getter;
 
 public class CertificateWizardPanel extends AbstractWizardPanel<CertificateInfoModel>

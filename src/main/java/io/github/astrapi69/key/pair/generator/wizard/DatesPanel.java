@@ -34,12 +34,14 @@ import javax.swing.JLabel;
 import com.github.lgooddatepicker.components.CalendarPanel;
 import com.github.lgooddatepicker.components.DatePicker;
 
-import io.github.astrapi69.key.pair.generator.WizardApplicationFrame;
 import io.github.astrapi69.collection.array.ArrayFactory;
 import io.github.astrapi69.collection.list.SortedUniqueList;
 import io.github.astrapi69.collection.pair.ValueBox;
 import io.github.astrapi69.design.pattern.state.wizard.model.BaseWizardStateMachineModel;
 import io.github.astrapi69.design.pattern.state.wizard.model.NavigationEventState;
+import io.github.astrapi69.key.pair.generator.WizardApplicationFrame;
+import io.github.astrapi69.key.pair.generator.eventbus.ApplicationEventBus;
+import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
 import io.github.astrapi69.model.LambdaModel;
 import io.github.astrapi69.model.api.IModel;
 import io.github.astrapi69.random.number.RandomBigIntegerFactory;
@@ -47,8 +49,6 @@ import io.github.astrapi69.swing.base.BasePanel;
 import io.github.astrapi69.swing.model.combobox.GenericComboBoxModel;
 import io.github.astrapi69.swing.model.component.JMBigIntegerTextField;
 import io.github.astrapi69.swing.model.component.JMComboBox;
-import io.github.astrapi69.key.pair.generator.eventbus.ApplicationEventBus;
-import io.github.astrapi69.key.pair.generator.wizard.model.CertificateInfoModel;
 import lombok.Getter;
 import net.miginfocom.swing.MigLayout;
 

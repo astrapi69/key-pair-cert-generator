@@ -30,7 +30,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import io.github.astrapi69.collection.array.ArrayExtensions;
@@ -55,7 +54,7 @@ class InitialTemplateTest
 {
 
 	@Test
-//	@Disabled
+	// @Disabled
 	public void testRenameToConcreteProject() throws IOException
 	{
 		String projectDescription;

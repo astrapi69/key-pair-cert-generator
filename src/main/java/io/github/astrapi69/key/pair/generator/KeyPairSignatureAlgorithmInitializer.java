@@ -8,8 +8,8 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
 import io.github.astrapi69.collection.list.SortedUniqueList;
-import io.github.astrapi69.key.pair.generator.model.CertificateAlgorithmEntry;
 import io.github.astrapi69.key.pair.generator.extension.CsvExtensions;
+import io.github.astrapi69.key.pair.generator.model.CertificateAlgorithmEntry;
 import io.github.astrapi69.lang.ClassExtensions;
 import io.github.astrapi69.swing.dialog.DialogExtensions;
 import lombok.Getter;

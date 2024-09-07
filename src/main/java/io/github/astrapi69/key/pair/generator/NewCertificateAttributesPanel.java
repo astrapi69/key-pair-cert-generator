@@ -26,12 +26,12 @@ package io.github.astrapi69.key.pair.generator;
 
 import javax.swing.*;
 
+import io.github.astrapi69.key.pair.generator.wizard.model.DistinguishedNameInfoModel;
 import io.github.astrapi69.model.BaseModel;
 import io.github.astrapi69.model.LambdaModel;
 import io.github.astrapi69.model.api.IModel;
 import io.github.astrapi69.swing.base.BasePanel;
 import io.github.astrapi69.swing.model.component.JMTextField;
-import io.github.astrapi69.key.pair.generator.wizard.model.DistinguishedNameInfoModel;
 import lombok.Getter;
 import net.miginfocom.swing.MigLayout;
 

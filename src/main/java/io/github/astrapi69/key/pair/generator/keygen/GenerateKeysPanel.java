@@ -47,7 +47,6 @@ import javax.swing.*;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
-import io.github.astrapi69.key.pair.generator.WizardApplicationFrame;
 import io.github.astrapi69.crypt.data.factory.KeyPairFactory;
 import io.github.astrapi69.crypt.data.factory.KeyPairGeneratorFactory;
 import io.github.astrapi69.crypt.data.key.PrivateKeyExtensions;
@@ -55,6 +54,7 @@ import io.github.astrapi69.crypt.data.key.PublicKeyExtensions;
 import io.github.astrapi69.crypt.data.key.writer.EncryptedPrivateKeyWriter;
 import io.github.astrapi69.crypt.data.key.writer.PrivateKeyWriter;
 import io.github.astrapi69.crypt.data.key.writer.PublicKeyWriter;
+import io.github.astrapi69.key.pair.generator.WizardApplicationFrame;
 import io.github.astrapi69.model.BaseModel;
 import io.github.astrapi69.model.api.IModel;
 import io.github.astrapi69.swing.base.BasePanel;
